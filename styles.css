@@ -12,13 +12,35 @@
     background-color: gray;
 }
 
+/* Sidebar */
+
 .sidebar {
     background-color: #1e92d4;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 6;
+    color: white;
 }
+
+.logo {
+    margin: 25px;
+}
+
+.sidebar-list {
+    
+}
+
+li {
+    margin: 25px;
+    padding: 5px;
+}
+
+.sidebar-settings {
+    margin-top: 40px;
+}
+
+/* Header */
 
 .header {
     background-color: white;
@@ -27,6 +49,21 @@
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
+.searchbar {
+    /* height: 20px;
+    width: 500px; */
+    background-color: #e2e8f0;
+    grid-template-columns: 40px;
+    grid-template-rows: 200px;
+}
+
+.welcome {
+    grid-template-columns: 400px;
+    grid-template-rows: 200px;
+}
+
+/* Main content */
 
 .main-content {
     background-color: #e2e8f0;
